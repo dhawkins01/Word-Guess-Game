@@ -12,5 +12,13 @@ var guesses = 20;
 var word = produce[Math.floor(Math.random() * produce.length)];
 console.log(word);
 
+// this array will show how many letters are in the word using underscores
+var answerArray = [];
+for (var i = 0; i < word.length; i++) {
+    answerArray[i] = "_";
+}
+
+
+
 
 
